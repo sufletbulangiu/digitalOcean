@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'counter/style.css' %}">
+    </head>
+    <title>ID: {{session_key}}</title>
+    <body>
+        <div>
+            <h1>G0tcha ya!</h1>
+            The count is {{count}} <br>
+            Device is {{device}} <br>
+            IP Address is {{ip}} <br>
+            Operating System is {{os}} {{osVersion}} <br>
+            Browser is {{browser}} {{browserVersion}} <br>
+            Your Session Id is <strong>{{session_key}}</strong> <br>
+    
+        </div>
+    </body>
+</html>

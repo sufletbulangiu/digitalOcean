@@ -1,0 +1,8 @@
+django
+whitenoise
+gunicorn
+supervisor
+pyyaml 
+ua-parser 
+user-agents
+django-user-agents
